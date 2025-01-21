@@ -15,7 +15,7 @@ export default {
           blue: "var(--canvas-blue)",
           green: "var(--canvas-green)",
           "pastel-orange": "var(--canvas-pastel-orange)",
-          gray: "var(--canvas-gray)",
+          gray: "hsl(var(--canvas-gray))",
         },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
