@@ -16,7 +16,9 @@ export default function HomeLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoMono.className} antialiased`}>{children}</body>
+      <body className={`${robotoMono.className} p-8 antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
