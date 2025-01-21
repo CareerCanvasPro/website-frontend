@@ -1,40 +1,34 @@
-import { File, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
 
 import { Input } from "@career-canvas/components/ui/input";
 
-export function StepTwoComponent() {
+export function StepFourComponent() {
   return (
     <form className="flex w-2/5 flex-col gap-5">
       <div className="rounded-3xl border-2 border-canvas-gray">
-        <Input className="border-t-0" placeholder="Current Education" />
+        <Input className="border-t-0" placeholder="Hard Skills" />
         <div className="flex flex-col gap-5 px-4 pb-4 pt-2">
           <Input
             className="rounded-none border border-x-0 border-t-0 px-0 py-1"
-            placeholder="Institute Name"
+            placeholder="Skill"
           />
           <Input
             className="rounded-none border border-x-0 border-t-0 px-0 py-1"
-            placeholder="Field of Education"
+            placeholder="Skill"
           />
           <Input
             className="rounded-none border border-x-0 border-t-0 px-0 py-1"
-            placeholder="Expected Graduation Date"
+            placeholder="Skill"
           />
           <Input
             className="rounded-none border border-x-0 border-t-0 px-0 py-1"
-            placeholder="Academic Achievements"
+            placeholder="Skill"
           />
-          <div className="flex items-center justify-end gap-2">
-            <span className="text-sm font-medium text-canvas-gray">
-              Upload Certificates
-            </span>
-            <File className="text-canvas-gray" size={18} />
-          </div>
         </div>
       </div>
       <div className="flex items-center gap-2">
         <Plus size={20} />
-        <span className="text-sm font-medium">Add Education</span>
+        <span className="text-sm font-medium">Add Soft Skills</span>
       </div>
     </form>
   );

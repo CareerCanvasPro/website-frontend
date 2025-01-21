@@ -2,7 +2,7 @@ import { CameraIcon } from "@career-canvas/components/icons/camera";
 import { PersonIcon } from "@career-canvas/components/icons/person";
 import { Input } from "@career-canvas/components/ui/input";
 
-export function StepOne() {
+export function StepOneComponent() {
   return (
     <form className="flex w-2/5 flex-col gap-2">
       <div className="mx-auto flex">

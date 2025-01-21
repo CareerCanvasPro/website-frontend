@@ -10,9 +10,9 @@
 
 @layer base {
   :root {
-    --canvas-blue: #0052cc;
-    --canvas-green: #3cb371;
-    --canvas-pastel-orange: #ffa07a;
+    --canvas-blue: 216 100% 40%;
+    --canvas-green: 147 50% 47%;
+    --canvas-pastel-orange: 17 100% 74%;
     --canvas-gray: 0 0% 66%;
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;

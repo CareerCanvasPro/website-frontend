@@ -12,9 +12,9 @@ export default {
     extend: {
       colors: {
         canvas: {
-          blue: "var(--canvas-blue)",
-          green: "var(--canvas-green)",
-          "pastel-orange": "var(--canvas-pastel-orange)",
+          blue: "hsl(var(--canvas-blue))",
+          green: "hsl(var(--canvas-green))",
+          "pastel-orange": "hsl(var(--canvas-pastel-orange))",
           gray: "hsl(var(--canvas-gray))",
         },
         background: "hsl(var(--background))",
